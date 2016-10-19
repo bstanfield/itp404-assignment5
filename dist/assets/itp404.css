@@ -1,0 +1,66 @@
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Helvetica Neue';
+  color: #333333;
+}
+
+li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.long-list li {
+  display: block;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1, h2, h3, h4 {
+  margin: 0px 0px 0px 0px;
+}
+
+h2, h3, h4 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+p {
+  margin: 10px 0px 0px 0px;
+}
+
+body {
+  margin: 0px 0px 0px 40px;
+}
+
+ul {
+  padding: 0px;
+  margin-top: 30px;
+}
+
+img {
+  width: 50px;
+}
+
+/*COLUMNS*/
+.col-1 {
+  width: 30%;
+  display: inline;
+}
+
+.col-2 {
+  width: 50%;
+  display: inline;
+  float: right;
+}
